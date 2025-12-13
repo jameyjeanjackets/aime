@@ -1,0 +1,6 @@
+services:
+  aime:
+    image: aime
+    build:
+      context: .
+      dockerfile: ./Dockerfile
